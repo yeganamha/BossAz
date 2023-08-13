@@ -1,0 +1,26 @@
+body{
+    background-color: bisque;
+}
+
+.grid_container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+.grid_item{
+    border: ridge;
+    padding: 20px;
+    background-color: white;
+}
+.grid_item div{
+    width: 115px;
+    height: 27px;
+    background-color: rgb(195, 144, 51);
+    border-radius: 5px;
+    
+}
+.grid_item div, a{
+    text-align: center;
+    margin-top: 8px;
+  
+}
